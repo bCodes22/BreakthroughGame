@@ -1,17 +1,28 @@
-The Break Through Game
-Breakthrough is an abstract strategy board game invented by Dan Troyka in 2000 and made available as a Zillions of Games file (ZRF). 
-It won the 2001 8x8 Game Design Competition, even though the game was originally played on a 7x7 board, as it is trivially extensible
-to larger board sizes.
+Breakthrough Game AI – CS591 Project
+This project is a Pygame-based implementation of the Breakthrough board game featuring intelligent AI opponents powered by Minimax and Alpha-Beta Pruning algorithms, each using different offensive and defensive heuristics.
 
-To Run the Game:
-1. Open a any python compiler
+What's Inside
+Two-player game simulation (Player vs AI or AI vs AI)
 
-2. Install Pygame 
-Open a new terminal and run the following:
-Run the following code: 
+Customizable heuristic options
 
--pip install pygame
+Matchup modes to compare different AI strategies
 
--python breakthroughgame.py
+Step-by-step performance output after each game
 
-Now you can test/enjoy the game!
+Requirements
+You only need to install one dependency:
+
+In your terminal:
+pip install pygame
+
+How to Run
+Once Pygame is installed, run the game using:
+
+python breakthroughgame.py
+
+Make sure all required .py files (like minimax_agent.py) are in the same folder.
+
+📁 Files
+breakthroughgame.py – Main Pygame GUI and controller
+minimax_agent.py – AI algorithms and heuristics
