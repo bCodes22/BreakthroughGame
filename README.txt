@@ -1,5 +1,6 @@
 Breakthrough Game AI – CS591 Project
-This project is a Pygame-based implementation of the Breakthrough board game featuring intelligent AI opponents powered by Minimax and Alpha-Beta Pruning algorithms, each using different offensive and defensive heuristics. Heuristics 2 was created by me.
+This project is a Pygame-based implementation of the Breakthrough board game featuring intelligent AI opponents powered by Minimax and Alpha-Beta Pruning algorithms,
+each using different offensive and defensive heuristics. Heuristics 2 was created by me.
 
 What's Inside
 Two-player game simulation (Player vs AI or AI vs AI)
